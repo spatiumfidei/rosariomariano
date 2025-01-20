@@ -1,0 +1,124 @@
+/* Fontes clássicas e elegantes */
+body {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f5ef;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background: #2a2b2c;
+    color: #fff;
+    padding: 1em;
+    text-align:left;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    box-shadow: 0 2px 4px rgba(221, 207, 207, 0.1);
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 1em;
+    background: #ddd;
+    color: #333;
+    font-size: 0.9em;
+    font-family: 'Merriweather', serif;
+}
+
+/* Conteúdo principal */
+main {
+    padding: 2em;
+    width: 65%;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+}
+
+/* Estilização dos versículos */
+.superscript {
+    font-style: italic;
+    font-size: 10px;
+    vertical-align: super;
+}
+
+
+/* Barra lateral (aside) */
+aside {
+    background: #e6f0ff;
+    border-left: 1px solid #819bb4;
+    padding: 1em;
+    margin: 1em 0;
+    position: relative;
+}
+
+aside h2 {
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+    color: #004080;
+    font-family: 'Playfair Display', serif;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+aside ul li {
+    margin-bottom: 0.5em;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #036085;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+}
+
+aside ul li a:hover {
+    text-decoration: underline;
+    color: #002a5c;
+}
+
+/* Layout para telas grandes */
+.container {
+    display: flex;
+    gap: 2em;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+main {
+    flex: 3;
+}
+
+aside {
+    flex: 1;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column-reverse;
+        padding: 1em;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    aside {
+        margin: 0;
+        border-left: none;
+        border-top: 4px solid #004080;
+        background: #f9f9f9;
+    }
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$title$</title>
+    <meta name="description" content="Descrição do conteúdo da página">
+    <meta name="keywords" content="Evangelho, Marcos, Bíblia, Catolicismo">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>$title$</h1>
+        <h2>$subtitle$</h2>              
+    </header>
+    <div class="container">
+        <main>
+            <!-- Aqui será inserido o conteúdo do corpo da página -->
+            $body$
+        </main>
+        <aside>
+            <!-- Aqui estão os títulos extraídos do arquivo Markdown -->
+            <h2>Índice</h2>
+            <ul id="index-list">
+                <!-- Links para os títulos no arquivo .md serão gerados aqui -->
+            </ul>
+        </aside>
+    </div>
+    <footer>
+        <p>&copy; 2025 - Equipe Docs Católicos</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var indexList = document.getElementById("index-list");
+            var headers = document.querySelectorAll("main h2");
+            headers.forEach(function(header) {
+                var titleText = header.textContent;
+                var id = header.id;
+                var listItem = document.createElement("li");
+                var link = document.createElement("a");
+                link.href = "#" + id;  // O link aponta para o id do cabeçalho
+                link.textContent = titleText;
+                listItem.appendChild(link);
+                indexList.appendChild(listItem);
+            });
+        });
+    </script>
+</body>
+</html>
