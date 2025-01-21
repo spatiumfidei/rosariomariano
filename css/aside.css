@@ -1,0 +1,46 @@
+/* CSS para o aside */
+aside {
+    position: relative;
+    z-index: 1; /* Menor prioridade em relação ao header */
+}
+  
+  
+aside {
+    background: #e6f0ff;
+    border-left: 1px solid #819bb4;
+    padding: 1em;
+    margin: 1em 0;
+    position: relative;
+    flex: 1;
+    order: 2;
+}
+
+
+aside h2 {
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+    color: #004080;
+    font-family: 'Playfair Display', serif;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+aside ul li {
+    margin-bottom: 0.5em;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #036085;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+}
+
+aside ul li a:hover {
+    text-decoration: underline;
+    color: #002a5c;
+}

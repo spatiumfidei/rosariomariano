@@ -1,0 +1,40 @@
+/* Layout para telas grandes */
+.container {
+    display: flex; /* Ativa o layout flexbox */
+    flex-direction: row; /* Alinha os elementos em uma linha */
+    gap: 2em; /* Espaço entre os elementos */
+    margin: 0 auto;
+    max-width: 1200px; /* Largura máxima do layout */
+}
+
+main {
+    flex: 3; /* Ocupa mais espaço que o aside */
+}
+
+aside {
+    flex: 1; /* Ocupa menos espaço */
+}
+
+/* Responsividade para telas pequenas */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Alinha os elementos em uma coluna */
+        padding: 1em;
+    }
+
+    aside {
+        order: 1; /* Aside fica no topo */
+        margin: 0;
+        border-left: none;
+        border-top: 4px solid #004080;
+        background: #f9f9f9;
+        padding: 1.5em;
+    }
+
+    main {
+        order: 2; /* Main vem depois */
+        width: 100%;
+        padding: 1.5em;
+        font-size: 1.1rem;
+    }
+}

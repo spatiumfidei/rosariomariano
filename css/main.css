@@ -1,0 +1,19 @@
+main {
+    padding: 2em;
+    width: 65%;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    flex: 3;
+    order: 1;
+}
+
+
+/* Estilização dos versículos */
+.superscript {
+    font-style: italic;
+    font-size: 10px;
+    vertical-align: super;
+}

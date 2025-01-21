@@ -6,12 +6,32 @@
     <title>$title$</title>
     <meta name="description" content="Descrição do conteúdo da página">
     <meta name="keywords" content="Evangelho, Marcos, Bíblia, Catolicismo">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/header.css">
 </head>
 <body>
     <header>
-        <h1>$title$</h1>
-        <h2>$subtitle$</h2>              
+        <div class="navbar">
+            <div class="logo">
+                <h1>$title$</h1>
+                <h4>$subtitle$</h4>
+            </div>
+            <!-- Botão Toggle -->
+            <button class="toggle-button" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <!-- Links do Menu -->
+            <ul class="nav-links">
+                <h2 class="menu-title">ROSÁRIO MARIANO</h2>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="1_gozosos.html">Gozosos</a></li>
+                <li><a href="2_dolorosos.html">Dolorosos</a></li>
+                <li><a href="3_gloriosos.html">Gloriosos</a></li>
+                <li><a href="4_luminosos.html">Luminosos</a></li>
+            </ul>
+        </div>
     </header>
     <div class="container">
         <main>
@@ -27,25 +47,9 @@
         </aside>
     </div>
     <footer>
-        <p>&copy; 2025 - Equipe Docs Católicos</p>
+        <p>&copy; 2025 - Grupo de Estudos Católicos Padre Pio <br><a>Paróquia São Francisco de Assis / Junco / Picos-PI</a></p>
     </footer>
 
     <script src="script.js"></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            var indexList = document.getElementById("index-list");
-            var headers = document.querySelectorAll("main h2");
-            headers.forEach(function(header) {
-                var titleText = header.textContent;
-                var id = header.id;
-                var listItem = document.createElement("li");
-                var link = document.createElement("a");
-                link.href = "#" + id;  // O link aponta para o id do cabeçalho
-                link.textContent = titleText;
-                listItem.appendChild(link);
-                indexList.appendChild(listItem);
-            });
-        });
-    </script>
 </body>
 </html>
