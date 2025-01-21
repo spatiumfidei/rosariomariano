@@ -41,7 +41,7 @@ Naquele tempo, o anjo Gabriel foi enviado por Deus a uma cidade da Galileia, cha
 -  **Glória**
 -  **Oração**
 
->>> A Anunciação a Maria inaugura a «plenitude dos tempos» (Gl 4, 4), isto é, o cumprimento das promessas e das preparações.  
+*A Anunciação a Maria inaugura a «plenitude dos tempos» (Gl 4, 4), isto é, o cumprimento das promessas e das preparações.*  
 **(CIC, 484)**
 
   
@@ -58,7 +58,7 @@ Naqueles dias, Maria partiu para a região montanhosa, dirigindo-se, apressadame
 -  **Glória**
 -  **Oração**
 
->>> A «visitação» de Maria a Isabel tornou-se, assim, «visita de Deus ao seu povo.»  
+*A «visitação» de Maria a Isabel tornou-se, assim, «visita de Deus ao seu povo.»*  
 **(CIC, 717)**
 
 
@@ -75,7 +75,7 @@ Aconteceu que naqueles dias, César Augusto publicou um decreto, ordenando o rec
 -  **Glória**
 -  **Oração**
 
->>> «Jesus nasceu na humildade de um estábulo, em uma família pobre. As primeiras testemunhas do evento são simples pastores. É nesta pobreza que se manifesta a glória do Céu.»  
+*«Jesus nasceu na humildade de um estábulo, em uma família pobre. As primeiras testemunhas do evento são simples pastores. É nesta pobreza que se manifesta a glória do Céu.»*  
 **(CIC, 525)**
  
 
@@ -92,7 +92,7 @@ No oitavo dia, quando o menino devia ser circuncidado, deram-lhe o nome de Jesus
 -  **Glória**
 -  **Oração**
 
->>> «A circuncisão de Jesus, no oitavo dia depois do seu nascimento, é sinal da sua inserção na descendência de Abraão, no povo da Aliança, da sua submissão à Lei.»  
+*«A circuncisão de Jesus, no oitavo dia depois do seu nascimento, é sinal da sua inserção na descendência de Abraão, no povo da Aliança, da sua submissão à Lei.»*  
 **(CIC, 527)**
  
 
@@ -109,7 +109,7 @@ Os pais de Jesus iam todos os anos a Jerusalém, para a festa da Páscoa. Quando
 -  **Glória**
 -  **Oração**
 
->>> «O reencontro de Jesus no templo é o único acontecimento que rompe o silêncio dos Evangelhos sobre os anos ocultos de Jesus. Nele, Jesus deixa entrever o mistério de sua consagração total a uma missão decorrente de sua filiação divina: «Não sabíeis que Eu tenho de estar naquilo que é de meu Pai?»  
+*«O reencontro de Jesus no templo é o único acontecimento que rompe o silêncio dos Evangelhos sobre os anos ocultos de Jesus. Nele, Jesus deixa entrever o mistério de sua consagração total a uma missão decorrente de sua filiação divina: «Não sabíeis que Eu tenho de estar naquilo que é de meu Pai?»*  
 **(CIC, 534)**
 
   
